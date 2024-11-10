@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav-bar {
+  background-color: black;
+  color: white;
+  height: 60px;
+  padding-top: 10px;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+#nav-bar li {
+  display: inline;
+  margin-right: 190px;
+}
+
+#logo {
+  margin-left: 5px;
+  color: #f08804;
+  font-size: 25px;
+}
+
+button {
+  background-color: #f08804;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 50px;
+}

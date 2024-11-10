@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: palevioletred; */
+}
+
+.nav-bar {
+  background-color: #212529;
+  color: white;
+  line-height: 60px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 190px;
+  font-size: 15px;
+}
+
+.nav-bar a:hover {
+  border-bottom: 2px solid;
+}
+
+#fist {
+  font-size: 30px;
+  color: whitesmoke;
+  margin-left: 6px;
+  text-shadow: 5px 1px 10px blue;
+}
+
+button {
+  background-color: #adb5bd;
+  color: white;
+  width: 70px;
+  height: 45px;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+input {
+  background-color: #e9ecef;
+  color: black;
+  width: 170px;
+  height: 35px;
+  border-radius: 35px;
+  padding: 20px;
+}
+
+.banner {
+  background-image: url(https://www.w3docs.com/uploads/media/default/0001/05/6d07a36ebe6d55273b39440f2391f1d7e6d4092a.png);
+  /* background-image: url(https://miro.medium.com/v2/resize:fit:600/1*OFsc0SD55jhi8cjo7aCA4w.jpeg); */
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+body {
+  background-color: #dee2e6;
+}
+
+.content-area {
+  background-color: #dee2e6;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+
+.box {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  padding-top: 40px;
+}
+
+.box a {
+  text-decoration: none;
+  color: blueviolet;
+  margin: 20px;
+}
+
+span {
+  width: 350px;
+  height: 250px;
+  margin-top: 20px;
+  border: 2px solid #212529;
+}
+
+.foot {
+  background-color: #212529;
+  color: whitesmoke;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: Algerian;
+  color: honeydew;
+  text-shadow: 5px 1px 10px blue;
+}
+
+H4 {
+  font-family: Chiller;
+  color: blueviolet;
+  text-shadow: 5px 1px 10px red;
+}
+
+p {
+  font-size: 20px;
+  font-family: Freestyle Script;
+  text-decoration: wavy;
+}
+
+.name {
+  background-color: #343a40;
+  border-radius: 20px;
+}
+
+.name a {
+  text-decoration: none;
+  color: red;
+  text-shadow: 5px 1px 10px blue;
+}
+
+.name {
+  margin: 20px;
+}
+
+.box:hover {
+  background-color: #dee2e6;
+  border: 3px solid #6c757d;
+  border-radius: 50%;
+  transition-duration: 2ms;
+  font-size: 40px;
+}

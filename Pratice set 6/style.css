@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background-color: black;
+  color: white;
+  display: flex;
+  line-height: 50px;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.outer {
+  margin: 50px;
+  height: 500px;
+  width: 500px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+}

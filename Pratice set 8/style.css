@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.loader {
+  margin-top: 20%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid blue;
+  border-top: 20px solid red;
+  box-shadow: 5px 1px 40px yellow;
+  animation: spinAnimate 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

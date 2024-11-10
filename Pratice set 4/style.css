@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background-color: black;
+  color: white;
+  line-height: 60px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  margin-right: 200px;
+  font-size: 15px;
+}
+
+#fist {
+  font-size: 25px;
+  color: #f08804;
+}
+
+button {
+  background-color: #f08804;
+}
+
+#content-area {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 25px;
+}
+
+#box-1 {
+  background-image: url(https://images.pexels.com/photos/13564604/pexels-photo-13564604.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#box-2 {
+  background-image: url(https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+#box-3 {
+  background-image: url(https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 225px;
+  padding: 10px;
+}
